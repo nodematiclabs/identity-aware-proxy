@@ -1,0 +1,403 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1186
+  viewPortHeight: 740
+  horizontalOffset: -72
+  verticalOffset: -150
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 740
+nodes:
+  - shape:
+      type: HTML
+      content: "<div class=\"c-html\" style=\"background-color: #3871e0;\"><div
+        class=\"c-container\"><div class=\"c-image-primary\"
+        style=\"background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/comp\
+        ute_engine_Black_87_hlfiaq.png);\"></div><div class=\"c-image-original\"
+        style=\"background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/comp\
+        ute_engine_rluunv.png);\"></div><div class=\"c-text\"><div
+        class=\"c-title\">Google Compute Engine</div><div
+        class=\"c-short-description\">Running virtual machines on Google's
+        infrastructure</div><div class=\"c-bottom\"><div class=\"c-hr
+        p-mb-1\"></div><div class=\"c-title-bottom\">Google Cloud
+        Platform</div></div></div></div></div>"
+    id: Google Compute EnginetwtNK
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Compute Engine
+        shortDescription: Running virtual machines on Google's infrastructure
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Compute Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Compute Engine
+      editableName: Google Compute Engine
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+        - name: Connection Receiver
+          type: Storage
+          portsIn:
+            put: connection
+            get: get
+          portsOut:
+            stored: connection
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+        - type: Storage
+          status: Idle
+          name: Connection Receiver
+      name: Google Compute Engine
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_rluunv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine__044448_c5wixz.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_Black_87_hlfiaq.png
+      color: "#3871e0"
+      controlText: Compute Engine
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 705
+    offsetY: 233
+    zIndex: 0
+    inEdges:
+      - Straight ConnectorGBoST
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #616161;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_Black_87_a2x4yt.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_mlfqgr.png);"></div><div
+        class="c-text"><div class="c-title">Engineers</div><div
+        class="c-short-description">Designing, building, testing, and
+        maintaining software systems</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Engineers</div></div></div></div></div>'
+    id: EngineersLVOxF
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Engineers
+        shortDescription: Designing, building, testing, and maintaining software systems
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Engineers
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Engineers
+      editableName: Engineers
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Work Item Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+        - name: Request Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+        - name: Response Receiver
+          type: Storage
+          portsIn:
+            put: response
+            get: latest
+          portsOut:
+            stored: response
+        - name: Deployer
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Work Item Generator
+          AverageTimeBetweenWorkItemCreations: 1
+        - type: Generator
+          status: Idle
+          name: Request Generator
+          AverageTimeBetweenRequests: 1
+        - type: Storage
+          status: Idle
+          name: Response Receiver
+        - type: Processor
+          status: Idle
+          name: Deployer
+          AverageDeploymentDuration: 1
+      name: Engineers
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_mlfqgr.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer__044448_mcw8wl.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_Black_87_a2x4yt.png
+      color: "#616161"
+      controlText: Engineers
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 177
+    offsetY: 245
+    zIndex: 1
+    outEdges:
+      - Straight ConnectorAUHbS
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_Black_87_eis0nj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_ja4mkg.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Identity-Aware Proxy</div></div><hr
+        class="c-underrule" style="background-color: #3871e0"></div>'
+    id: Google Identity-Aware Proxyp2qwo
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Identity-Aware Proxy
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Identity-Aware Proxy
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Identity-Aware Proxy
+      editableName: Identity-Aware Proxy
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Identity-Aware Proxy
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_ja4mkg.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy__044448_k4yiml.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_Black_87_eis0nj.png
+      color: "#3871e0"
+      controlText: Identity-Aware Proxy
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      latitude: null
+      longitude: null
+    width: 183.00000000000003
+    height: 124
+    offsetX: 441
+    offsetY: 233
+    zIndex: 3
+    inEdges:
+      - Straight ConnectorAUHbS
+    outEdges:
+      - Straight ConnectorGBoST
+connectors:
+  - id: Straight ConnectorAUHbS
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 327
+      y: 238.18
+    targetPoint:
+      x: 349.5
+      y: 237.16
+    sourceID: EngineersLVOxF
+    targetID: Google Identity-Aware Proxyp2qwo
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Straight ConnectorGBoST
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 532.5
+      y: 233
+    targetPoint:
+      x: 555
+      y: 233
+    sourceID: Google Identity-Aware Proxyp2qwo
+    targetID: Google Compute EnginetwtNK
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+selectedItems:
+  width: 294
+  height: 50
+  offsetX: 705
+  offsetY: 308
